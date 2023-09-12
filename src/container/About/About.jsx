@@ -34,10 +34,14 @@ const About = () => {
   }, []);
   return (
     <>
-      <h2 className="head-text">
-        I know that <span>Good Apps</span> <br /> means{" "}
-        <span>Good Business</span>
-      </h2>
+      <h4 className="head-text">
+
+        I'm a <span>passionate programmer</span> with expertise in  <span>JavaScript, Python,</span> and I'm an aspiring C# developer,
+        dedicated to crafting efficient and user-centric solutions. <br />
+        I thrive on solving complex problems and am eager to collaborate on innovative projects
+        
+       
+      </h4>
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
